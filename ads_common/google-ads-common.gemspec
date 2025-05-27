@@ -35,7 +35,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.files = Dir.glob('lib/**/*') + %w(README.md ChangeLog)
   s.add_runtime_dependency('faraday', '>= 0.9', '< 3.0')
-  s.add_runtime_dependency('google-ads-savon', '~> 2.0')
+# s.add_runtime_dependency('google-ads-savon', '~> 2.0')
 # s.add_runtime_dependency('httpclient', '~> 2.7')
   s.add_runtime_dependency('signet', '~> 0.7')
   s.add_runtime_dependency('rack', '>0', '< 4.0')
